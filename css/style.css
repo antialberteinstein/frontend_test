@@ -1,0 +1,78 @@
+body {
+    background-image: url('../images/background.jpeg');
+    color: white;
+    font-size: larger;
+    justify-content: center;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+header {
+    background-color: #fff5;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 6px 12px #8888;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #e45;
+}
+
+/* Style for the signup and signin buttons */
+
+.signup {
+    position: absolute;
+    right: 13%;
+}
+
+.signin {
+    position: absolute;
+    right: 5%;
+}
+
+.signup a,
+.signin a {
+    background-color: #0205; /* GitHub's green color */
+    color: #fff;
+    padding: 10px 15px;
+    border: 2px solid #cccc;
+    border-radius: 10px;
+}
+
+.signup a:hover,
+.signin a:hover {
+    color: #2ea44f;
+}
+
+#logo img{
+    position: absolute;
+    top: 20px;
+    left: 2%;
+    max-height: 60px;
+}
+#typingText {
+    color: #fef9;
+    font-family: 'First Love', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    padding: auto;
+    width: 80%;
+    margin-left: 10%;
+}
